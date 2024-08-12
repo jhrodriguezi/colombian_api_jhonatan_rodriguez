@@ -1,0 +1,12 @@
+version: '3'
+services:
+  colombian-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/colombian_api_jhonatan_rodriguez
+      - /colombian_api_jhonatan_rodriguez/node_modules
+    command: ["npm", "start"]
