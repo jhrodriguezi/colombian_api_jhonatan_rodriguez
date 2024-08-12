@@ -1,4 +1,4 @@
-# Prueba técnica
+# Colombia API Lab
 
 ## Estructura de Directorios y Archivos de la Aplicación
 
